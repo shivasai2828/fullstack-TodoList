@@ -1,0 +1,32 @@
+.about-us-container {
+  /* max-width: 800px;
+  margin: 0 auto; */
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.about-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #d00;
+  margin-top: 8px;
+}
+
+.about-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
